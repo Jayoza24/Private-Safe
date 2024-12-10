@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Durvasa/Manager/app/src/main/res/drawable/background_circle.xml" value="0.154" />
+        <entry key="..\:/Durvasa/Manager/app/src/main/res/drawable/bottomsheet_bg.xml" value="0.157" />
+        <entry key="..\:/Durvasa/Manager/app/src/main/res/drawable/ic_back_arrow.xml" value="0.1" />
+        <entry key="..\:/Durvasa/Manager/app/src/main/res/drawable/ic_fullscreen.xml" value="0.154" />
+        <entry key="..\:/Durvasa/Manager/app/src/main/res/drawable/ic_more_wight.xml" value="0.164" />
+        <entry key="..\:/Durvasa/Manager/app/src/main/res/drawable/ripple_circle.xml" value="0.154" />
+        <entry key="..\:/Durvasa/Manager/app/src/main/res/drawable/selector_scrubber.xml" value="0.164" />
+        <entry key="..\:/Durvasa/Manager/app/src/main/res/drawable/shape.xml" value="0.154" />
+        <entry key="..\:/Durvasa/Manager/app/src/main/res/drawable/shape_circle.xml" value="0.154" />
+        <entry key="..\:/Durvasa/Manager/app/src/main/res/drawable/shape_divider.xml" value="0.154" />
+        <entry key="..\:/Durvasa/Manager/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Durvasa/Manager/app/src/main/res/layout/activity_private.xml" value="0.25" />
+        <entry key="..\:/Durvasa/Manager/app/src/main/res/layout/activity_send_feedback_layout.xml" value="0.25" />
+        <entry key="..\:/Durvasa/Manager/app/src/main/res/layout/activity_splash.xml" value="0.2323076923076923" />
+        <entry key="..\:/Durvasa/Manager/app/src/main/res/layout/activity_video_files.xml" value="0.2428174235403151" />
+        <entry key="..\:/Durvasa/Manager/app/src/main/res/layout/activity_video_player.xml" value="0.25" />
+        <entry key="..\:/Durvasa/Manager/app/src/main/res/layout/custom_playback_view.xml" value="0.25" />
+        <entry key="..\:/Durvasa/Manager/app/src/main/res/layout/folder_items.xml" value="0.25" />
+        <entry key="..\:/Durvasa/Manager/app/src/main/res/layout/fragment_history.xml" value="0.25" />
+        <entry key="..\:/Durvasa/Manager/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Durvasa/Manager/app/src/main/res/layout/fragment_home2.xml" value="0.25" />
+        <entry key="..\:/Durvasa/Manager/app/src/main/res/layout/fragment_setting.xml" value="0.25" />
+        <entry key="..\:/Durvasa/Manager/app/src/main/res/layout/password_dialog.xml" value="0.25" />
+        <entry key="..\:/Durvasa/Manager/app/src/main/res/layout/playlist_bs_layout.xml" value="0.25" />
+        <entry key="..\:/Durvasa/Manager/app/src/main/res/layout/private_videos_layout.xml" value="0.25" />
+        <entry key="..\:/Durvasa/Manager/app/src/main/res/layout/send_feedback_layout.xml" value="0.25" />
+        <entry key="..\:/Durvasa/Manager/app/src/main/res/layout/video_bs_layout.xml" value="0.264" />
+        <entry key="..\:/Durvasa/Manager/app/src/main/res/layout/video_item.xml" value="0.25" />
+        <entry key="..\:/Durvasa/Manager/app/src/main/res/menu/upper_menu_main.xml" value="0.25" />
+        <entry key="..\:/Durvasa/Manager/app/src/main/res/menu/upper_menu_videos.xml" value="0.24259259259259258" />
+        <entry key="..\:/Users/JAY/Desktop/Manager/app/src/main/res/drawable/icon_history.xml" value="0.1475" />
+        <entry key="..\:/Users/JAY/Desktop/Manager/app/src/main/res/drawable/selector_folder.xml" value="0.1475" />
+        <entry key="..\:/Users/JAY/Desktop/Manager/app/src/main/res/drawable/selector_grid.xml" value="0.134" />
+        <entry key="..\:/Users/JAY/Desktop/Manager/app/src/main/res/drawable/selector_history.xml" value="0.1085" />
+        <entry key="..\:/Users/JAY/Desktop/Manager/app/src/main/res/drawable/selector_setting.xml" value="0.1085" />
+        <entry key="..\:/Users/JAY/Desktop/Manager/app/src/main/res/font/main_font.xml" value="0.24814814814814815" />
+        <entry key="..\:/Users/JAY/Desktop/Manager/app/src/main/res/layout/activity_camera_video.xml" value="0.25" />
+        <entry key="..\:/Users/JAY/Desktop/Manager/app/src/main/res/layout/activity_downloads_video.xml" value="0.25" />
+        <entry key="..\:/Users/JAY/Desktop/Manager/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
+        <entry key="..\:/Users/JAY/Desktop/Manager/app/src/main/res/layout/activity_video_downloads.xml" value="0.25" />
+        <entry key="..\:/Users/JAY/Desktop/Manager/app/src/main/res/layout/activity_video_files.xml" value="0.25" />
+        <entry key="..\:/Users/JAY/Desktop/Manager/app/src/main/res/layout/activity_video_player.xml" value="0.25" />
+        <entry key="..\:/Users/JAY/Desktop/Manager/app/src/main/res/layout/activity_whats_app_video.xml" value="0.25" />
+        <entry key="..\:/Users/JAY/Desktop/Manager/app/src/main/res/layout/custom_playback_view.xml" value="0.25" />
+        <entry key="..\:/Users/JAY/Desktop/Manager/app/src/main/res/layout/folder_items.xml" value="0.25" />
+        <entry key="..\:/Users/JAY/Desktop/Manager/app/src/main/res/layout/fragment_history.xml" value="0.25" />
+        <entry key="..\:/Users/JAY/Desktop/Manager/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Users/JAY/Desktop/Manager/app/src/main/res/layout/fragment_home2.xml" value="0.25" />
+        <entry key="..\:/Users/JAY/Desktop/Manager/app/src/main/res/layout/fragment_setting.xml" value="0.25" />
+        <entry key="..\:/Users/JAY/Desktop/Manager/app/src/main/res/layout/vertical_view.xml" value="0.264" />
+        <entry key="..\:/Users/JAY/Desktop/Manager/app/src/main/res/layout/video_item.xml" value="0.25" />
+        <entry key="..\:/Users/JAY/Desktop/Manager/app/src/main/res/layout/video_view_card.xml" value="0.25" />
+        <entry key="..\:/Users/JAY/Desktop/Manager/app/src/main/res/layout/video_view_card_grid.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/JAY/Desktop/Manager/app/src/main/res/layout/video_view_card_linear.xml" value="0.25" />
+        <entry key="..\:/Users/JAY/Desktop/Manager/app/src/main/res/menu/bottom_menu.xml" value="0.25" />
+        <entry key="..\:/Users/JAY/Desktop/Manager/app/src/main/res/menu/bottom_outline.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

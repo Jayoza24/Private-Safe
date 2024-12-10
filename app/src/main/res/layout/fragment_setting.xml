@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SettingFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="80dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@drawable/shape_divider"
+            android:showDividers="middle"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginVertical="20dp">
+
+                <TextView
+                    android:id="@+id/txtMore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More"
+                    android:fontFamily="@font/gill_sans_mt"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:divider="@drawable/shape_divider"
+                    android:layout_marginVertical="20dp"
+                    android:layout_marginHorizontal="40dp"
+                    android:showDividers="middle">
+
+                    <RelativeLayout
+                        android:id="@+id/relPrivateShow"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="20dp"
+                        >
+
+                        <ImageView
+                            android:id="@+id/imgPrivateShow"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/ic_round_lock_person_24"
+                            app:tint="@color/yellow"/>
+
+                        <TextView
+                            android:id="@+id/txtPrivateShow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_toRightOf="@+id/imgPrivateShow"
+                            android:fontFamily="@font/gill_sans_mt"
+                            android:text="Show Private Videos"
+                            android:textColor="@color/fontBlack"
+                            android:textFontWeight="700"
+                            android:textSize="20dp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relPrivate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="20dp"
+                        >
+
+                        <ImageView
+                            android:id="@+id/imgPrivate"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/ic_hide"
+                            app:tint="@color/yellow"/>
+
+                        <TextView
+                            android:id="@+id/txtPrivate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_toRightOf="@+id/imgPrivate"
+                            android:fontFamily="@font/gill_sans_mt"
+                            android:text="Set Private Folder Password"
+                            android:textColor="@color/fontBlack"
+                            android:textFontWeight="700"
+                            android:textSize="20dp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relHelp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="20dp"
+                        >
+
+                        <ImageView
+                            android:id="@+id/imgHelp"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/icon_help" />
+
+                        <TextView
+                            android:id="@+id/txtHelp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_toRightOf="@+id/imgHelp"
+                            android:fontFamily="@font/gill_sans_mt"
+                            android:text="Help and Support"
+                            android:textColor="@color/fontBlack"
+                            android:textFontWeight="700"
+                            android:textSize="20dp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relPrivacy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="20dp">
+
+                        <ImageView
+                            android:id="@+id/imgPrivacy"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/icon_lock" />
+
+                        <TextView
+                            android:id="@+id/txtPrivacy"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_toRightOf="@+id/imgPrivacy"
+                            android:fontFamily="@font/gill_sans_mt"
+                            android:text="Privacy and Permission"
+                            android:textColor="@color/fontBlack"
+                            android:textFontWeight="700"
+                            android:textSize="20dp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relFeedback"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="20dp">
+
+                        <ImageView
+                            android:id="@+id/imgFeedback"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/icon_feedback" />
+
+                        <TextView
+                            android:id="@+id/txtFeedback"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_toRightOf="@+id/imgFeedback"
+                            android:fontFamily="@font/gill_sans_mt"
+                            android:text="Send feedback"
+                            android:textColor="@color/fontBlack"
+                            android:textFontWeight="700"
+                            android:textSize="20dp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relReset"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="20dp">
+
+                        <ImageView
+                            android:id="@+id/imgReset"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/icon_alert"
+                            app:tint="@color/yellow" />
+
+                        <TextView
+                            android:id="@+id/txtReset"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_toRightOf="@+id/imgReset"
+                            android:fontFamily="@font/gill_sans_mt"
+                            android:text="Reset Office"
+                            android:textColor="@color/fontBlack"
+                            android:textFontWeight="700"
+                            android:textSize="20dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Erase local data and user profile"
+                            android:textSize="15dp"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:layout_below="@+id/txtReset"
+                            android:layout_toRightOf="@+id/imgReset"
+                            android:layout_marginStart="10dp"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginVertical="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Version Information"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/gill_sans_mt"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="20dp"/>
+
+                <TextView
+                    android:id="@+id/txtVersion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Version"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/gill_sans_mt"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="40dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
